@@ -1,0 +1,63 @@
+* {
+    /* border: solid; */
+    border-color: red;
+    border-width: 1px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.section {
+    margin: 10px;
+    margin-top: 175px;
+    padding: 5px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.65));
+    border-radius: 3%;
+}
+
+body {
+    height: 2600px;
+    width:800px;
+    
+}
+
+#background-image {
+    background-image: url("https://images.unsplash.com/photo-1609738394507-57348ec4e540?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80");
+    background-attachment: fixed;
+
+    background-size: 100%;
+    /* background-repeat: no-repeat; */
+
+        
+    /* height: 10%;
+    top: 0px;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+#about{
+    text-align: center;
+    height: 200px;
+    margin-top: 200px;
+    
+
+}
+
+#skills {
+    text-align: center;
+    height: 100px;
+}
+
+#projects{
+    height: 200px;
+}
+
+#contact {
+    height: 200px;
+}
+
+.section-header {
+    text-align: center;
+}
